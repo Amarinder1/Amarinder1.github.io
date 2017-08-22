@@ -1,0 +1,49 @@
+body, html{
+  margin: 0;
+}
+
+body{
+  background-image: url("images/image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+}
+
+nav a:hover{
+  background-color: #333;
+  transition: 0.5s;
+}
+
+.pages h2{
+  color: yellow;
+  text-align: left;
+}
+
+.pages{
+  padding: 10vh 5vh;
+  min-height: 100vh;
+  width: 100vw;
+}
