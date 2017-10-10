@@ -3,7 +3,7 @@ body, html{
 }
 
 body{
-  background-image: url("images/image.jpeg");
+  /*background-image: url("images/image.jpeg");*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -37,13 +37,109 @@ nav a:hover{
   transition: 0.5s;
 }
 
-.pages h2{
-  color: yellow;
+.content{
+  margin-left: 2vw;
+}
+
+.part1 {
+  width:48%;
+  height: 50%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.part1:hover{
+  background-image: url("images/pj1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: left;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.part1:hover a{
+  color: #64b5f6;
+}
+
+.part1:hover p{
+  color: white;
+  margin-left: 2vw;
+}
+
+.part2 {
+  width:48%;
+  height: 50%;
+  float: left;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.part2:hover{
+  background-image: url("images/pj2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: #ff8a80;
+}
+
+.part2:hover a{
+  color: #64b5f6;
+}
+
+.part2:hover p{
+  margin-left: 1vw;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.part3 {
+    width:48%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid;
+}
+.part4 {
+    width:48%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+
+.content{
+  height: 80vh;
+}
+
+.pages h2{
+  color: black;
+  text-align: left;
+  margin-left: 3vw;
 }
 
 .pages{
-  padding: 10vh 5vh;
-  min-height: 100vh;
+  padding: 10vh 0vh;
+  min-height: 80vh;
   width: 100vw;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+
+.picture{
+  margin-left: 40vw;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.line{
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.info {
+  text-align: center;
 }
