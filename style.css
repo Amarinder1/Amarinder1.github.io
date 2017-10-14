@@ -143,3 +143,19 @@ nav a:hover{
 .info {
   text-align: center;
 }
+
+#connect .email{
+  margin-left: 5vw;
+}
+
+#connect .phone {
+  margin-left: 10vw;
+}
+
+#connect .link{
+  margin-left: 15vw;
+}
+
+#connect .resume{
+  margin-left: 30vw;
+}
