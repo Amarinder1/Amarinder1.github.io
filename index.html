@@ -3,11 +3,8 @@
   <head>
     <title>Amarinder Pandher</title>
     <link href="style.css" rel="stylesheet">
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.js"
-      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-      crossorigin="anonymous"></script>
-      <meta charset="utf-8">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
 
@@ -20,6 +17,8 @@
     </div>
 
     <div class="scroll">
+      <section class="pages" id="opener">
+      <section>
       <section class="pages" id="about">
         <h2>About me</h2>
         <div id="picture">
@@ -34,35 +33,89 @@
       <section class="pages" id="portfolio">
         <h2>Portfolio</h2>
         <div class="content">
-          <div class="part1">
-            <p>Hangman</p>
-            <p>Created using JavaScript, HTML5, CSS3, JQuery</p>
-            <p>Can be played with 1 or 2 people
-            <p><a href="https://github.com/Amarinder1/Hangman1" target="_blank">Link to the code</a></p>
-            <p><a href="https://amarinder1.github.io/Hangman1/homepage/" target="_blank">Link to deployed app</a></p>
+          <div class="project1">
+            <img class="pj1" src="images/pj1.jpg"></img>
+            <div class="info1">
+              <p class="title">League of Hangman</p>
+              <p>Created using JavaScript, HTML5, CSS3, JQuery</p>
+              <p>Can be played with 1 or 2 people
+              <p><button class="hang" onclick="window.open('https://amarinder1.github.io/Hangman1/homepage/')">Play the Game!</button></p>
+              <p><button class="hang-code" onclick="window.open('https://github.com/Amarinder1/Hangman1')">Check out the code!</button></p>
+            </div>
           </div>
-          <div class="part2">
-            <p>Amazon Web Store</p>
-            <p>Created using Ruby, Rails, HTML5, CSS3</p>
-            <p>Allows you to sign up/log in, views items, add them to your cart, and checkout your cart</p>
-            <p><a href="https://github.com/Amarinder1/Project2-Amazon" target="_blank">Link to the code</a></p>
-            <p><a href="https://amarinder-amazon.herokuapp.com/" target="_blank">Link to deployed app</a></p>
+          <div class="project2">
+            <div class="info2">
+              <p class="title">Amazon Web Store</p>
+              <p>Created using Ruby, Rails, HTML5, CSS3</p>
+              <p>Allows you to sign up/log in, views items, add them to your cart</p>
+              <p>and checkout your cart</p>
+              <p><button class="amazon" onclick="window.open('https://amarinder-amazon.herokuapp.com/')">Time to go shopping!</button></p>
+              <p><button class="amazon-code" onclick="window.open('https://github.com/Amarinder1/Project2-Amazon')">Check out the code!</button></p>
+            </div>
+            <img class="pj2" src="images/pj2.jpg"></img>
           </div>
-          <div class="part3">
+          <div class="project3">
             <p>Project 3</p>
-          </div>
-          <div class="part4">
-            <p>Project 4</p>
           </div>
       </div>
       </section>
       <section class="pages" id="connect">
         <h2>Connect</h2>
-        <p class="email">Email: <span>amarinder_pandher@yahoo.com</span></p>
-        <p class="phone">Phone Number: <span>240-423-6498</span></p>
-        <a class="link" href="https://www.linkedin.com/in/amarinder-pandher/" target="_blank">Linked-In Profile</a>
-        <a class="git" href="https://github.com/Amarinder1" target="_blank">GitHub Profile</a>
-        <p class="resume"><a href="https://docs.google.com/document/d/13YQ70DHc0vNVt0cFiBV6OvW3CwMIkYZZ5xxdWmIPasQ/edit?usp=sharing" target="_blank">Resume</a></p>
+        <div class="con-icons">
+          <div class="icons">
+            <div class="e-icon">
+              <a class="email" href="mailto:amarinder_pandher@yahoo.com" target="_top"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></i></a>
+            </div>
+            <div class="e-text">
+              Email
+            </div>
+          </div>
+          <div class="icons">
+            <div class="link-icon">
+              <a class="link" href="https://www.linkedin.com/in/amarinder-pandher/" target="_blank"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="link-text">
+              Linked-In
+            </div>
+          </div>
+          <div class="icons">
+            <div class="git-icon">
+              <a class="git" href="https://github.com/Amarinder1" target="_blank"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="git-text">
+              Git-Hub
+            </div>
+          </div>
+          <div class="icons">
+            <div class="res-icon">
+              <a class="resume" href="https://docs.google.com/document/d/13YQ70DHc0vNVt0cFiBV6OvW3CwMIkYZZ5xxdWmIPasQ/edit?usp=sharing" target="_blank"><i class="fa fa-file-text fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="res-text">
+              Resume
+            </div>
+          </div>
+          <div class="icons">
+            <div class="phone-icon">
+              <i class="fa fa-phone fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="phone-text">
+              240-423-6498
+            </div>
+          </div>
+        <!-- <div class="icons">
+
+        </div>
+        <div class="icons">
+          <div class="link-icon">
+
+            Linked-In
+          </div>
+        </div>
+        <a class="git" href="https://github.com/Amarinder1" target="_blank"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>GitHub
+        <a class="resume" href="https://docs.google.com/document/d/13YQ70DHc0vNVt0cFiBV6OvW3CwMIkYZZ5xxdWmIPasQ/edit?usp=sharing" target="_blank"><i class="fa fa-file-text fa-5x" aria-hidden="true"></i></a>Resume
+        <div class="top_categories"> -->
+
+      </div>
       </section>
     </div>
     <script
