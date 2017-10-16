@@ -92,6 +92,13 @@ nav a:focus{
   height: 90vh;
 }
 
+button{
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+            0 1px 5px 0 rgba(0, 0, 0, 0.12),
+            0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
 .hang, .hang-code, .amazon, .amazon-code{
   border: none;
   overflow: hidden;
@@ -106,9 +113,17 @@ nav a:focus{
   background-color: #3d5afe;
 }
 
+.hang:hover{
+  background-color: #8c9eff;
+}
+
 .hang-code{
   border-radius: 10em;
   background-color: #f50057;
+}
+
+.hang-code:hover{
+  background-color: #ff80ab;
 }
 
 .pj1{
@@ -130,9 +145,17 @@ nav a:focus{
   background-color: #ff8f00;
 }
 
+.amazon:hover{
+  background-color: #ffb300;
+}
+
 .amazon-code{
   border-radius: 10em;
   background-color: #4caf50;
+}
+
+.amazon-code:hover{
+  background-color: #81c784;
 }
 
 .pj2{
