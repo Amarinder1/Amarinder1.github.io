@@ -8,6 +8,7 @@ body{
   justify-content: center;
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: #eeeeee;
 }
 
 nav{
@@ -98,6 +99,7 @@ nav a:focus{
   width: 150px;
   height: 40px;
   color: white;
+  margin-top: 1rem;
 }
 
 .hang{
@@ -177,4 +179,8 @@ nav a:focus{
 
 .phone-icon{
   color: green;
+}
+
+#portfolio{
+  background-color: white;
 }
