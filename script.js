@@ -1,5 +1,6 @@
 var nav = $('#nav a');
 
+//got this code from stackoverflow
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
 
@@ -27,6 +28,7 @@ function onScroll(event){
       var refElement = $(currLink.attr("href"));
     });
 };
+//end of stackoverflow code
 
 nav.on('click', function() { //when you click on the nav bar
   $(this).addClass('no-hover'); // add the class 'no-hover'
