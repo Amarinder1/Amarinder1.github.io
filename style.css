@@ -326,3 +326,11 @@ when the screen size is less than 500px  */
 #portfolio{
   background-color: white;
 }
+
+#landing{
+  background-image: url('images/balloons.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-color: white;
+}
