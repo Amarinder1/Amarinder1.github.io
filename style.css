@@ -52,9 +52,10 @@ nav a:focus{
 }
 
 .pages h2{
-  color: black;
+  color: #2979ff;
   text-align: left;
   margin-left: 3vw;
+  font-size: 28px;
 }
 
 /* for everything but the nav bar*/
@@ -68,6 +69,10 @@ nav a:focus{
 .info {
   text-align: center;
   padding: 10px;
+}
+
+.tag{
+  font-weight: bold;
 }
 
 .line{
