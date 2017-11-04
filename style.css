@@ -52,7 +52,7 @@ nav a:focus{
 }
 
 .pages h2{
-  color: #2979ff;
+  color: #2196f3;
   text-align: left;
   margin-left: 3vw;
   font-size: 28px;
@@ -81,14 +81,22 @@ nav a:focus{
 }
 
 /* for my brand statement*/
-.brand{
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.container{
   width: 400px;
-  margin-top: 10vh;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 150px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.container:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.brand{
+  margin-top: 6vh;
 }
 
 /*for everything in the portfolio section*/
@@ -119,7 +127,7 @@ button{
 }
 
 /*more button styling*/
-.hang, .hang-code, .amazon, .amazon-code, .ididit, .front, .back{
+.hang, .hang-code, .amazon, .amazon-code, .ididit, .front, .back, .coffee, .coffee-code{
   border: none;
   overflow: hidden;
   padding: 0;
@@ -177,6 +185,7 @@ button{
   margin-right: 2vw;
 }
 
+/*button for deployed project 2*/
 .amazon{
   background-color: #ff8f00;
 }
@@ -185,6 +194,7 @@ button{
   background-color: #ffb300;
 }
 
+/*button to see project 2 code*/
 .amazon-code{
   border-radius: 10em;
   background-color: #212121;
@@ -194,11 +204,13 @@ button{
   background-color: #616161;
 }
 
+/*project 3 css*/
 .project3{
   display: block;
   height: 90vh;
 }
 
+/*image of project 3*/
 .pj3{
   height: 400px;
   width: 48%;
@@ -210,6 +222,7 @@ button{
   width: 48%;
 }
 
+/*button to see deployed project*/
 .ididit{
   background-color: #f44336;
 }
@@ -218,6 +231,7 @@ button{
   background-color: #e57373;
 }
 
+/*button to see front end code*/
 .front{
   background-color: #4caf50;
   border-radius: 10em;
@@ -227,6 +241,7 @@ button{
   background-color: #81c784;
 }
 
+/*button to see back end code*/
 .back{
   background-color: #fb8c00;
   border-radius: 10em;
@@ -234,6 +249,44 @@ button{
 
 .back:hover{
   background-color: #ffa726;
+}
+
+/*project 4 css*/
+.project4{
+  display: block;
+  height: 90vh;
+}
+
+/*info about project 4*/
+.info4{
+  float: left;
+  width: 47%;
+  margin-right: 2vw;
+}
+
+/* applies to image of project 4 */
+.pj4{
+  height: 400px;
+  width: 47%;
+  float: right;
+  margin-right: 2vw;
+}
+
+/*button to see deployed project 4*/
+.coffee{
+  background-color: #388e3c;
+}
+
+.coffee:hover{
+  background-color: #4caf50;
+}
+
+.coffee-code{
+  background-color: #795548;
+}
+
+.coffee-code:hover{
+  background-color: #a1887f;
 }
 
 /* will adjust the layout of the portfolio section
@@ -268,12 +321,23 @@ when the screen size is less than 500px  */
     }
     .project3{
       margin-top: 30vh;
-      height: 140vh;
     }
     .pj3{
       width: 100%;
     }
     .info3{
+      width: 100%;
+      clear: both;
+      float: none;
+    }
+    .project4{
+      margin-top: 50vh;
+      height: 110vh;
+    }
+    .pj4{
+      width: 100%;
+    }
+    .info4{
       width: 100%;
       clear: both;
       float: none;
@@ -328,9 +392,25 @@ when the screen size is less than 500px  */
 }
 
 #landing{
-  background-image: url('images/balloons.jpg');
+  background-image: url('images/landing.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
-  background-color: white;
+}
+
+#landing p{
+  text-align: center;
+}
+
+.name{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  font-size: 40px;
+}
+
+.tag{
+  font-size: 32px;
+}
+
+.tech{
+  color: #4db6ac;
 }
